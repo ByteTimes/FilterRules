@@ -1,3 +1,20 @@
+﻿/* DouYin ADS Remove
+
+Surge4.0:
+[URL Rewrite]
+^https?:\/\/(.*)\.amemv\.com\/aweme\/v2\/(follow\/)?feed\/ https://$1.amemv.com/aweme/v1/$2feed/ header
+[Script]
+douyin_ad = type=http-response,pattern=^https?:\/\/.*\.amemv\.com\/aweme\/v1\/(feed|mix\/aweme|aweme\/post|(multi\/)?aweme\/detail|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/,requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/SavileLee/FilterRules/Rules/Scripts/douyin.js
+
+QX 1.0.0:
+[rewrite_local]
+^https?:\/\/.*\.amemv\.com\/aweme\/v2\/(follow\/)?feed\/ url request-header ^GET \/aweme\/v\d\/(follow\/)?feed\/(.+\r\n) request-header GET /aweme/v1/$1feed/$2
+^https?:\/\/.*\.amemv\.com\/aweme\/v\d\/(feed|mix\/aweme|aweme\/post|(multi\/)?aweme\/detail|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-response-body https://raw.githubusercontent.com/SavileLee/FilterRules/Rules/Scripts/DouYin.js
+
+Surge & QX Mitm 
+hostname = %APPEND% *.amemv.com
+*/
+
 try {
   let body = $response.body.replace(/\"room_id\":(\d{2,})/g,'"room_id":"$1"');
   let obj = JSON.parse(body);

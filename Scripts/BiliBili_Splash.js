@@ -1,3 +1,15 @@
+﻿/*
+
+Surge4.0:
+[Script]
+
+QX 1.0.0:
+[rewrite_local]
+^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list url script-response-body https://raw.githubusercontent.com/SavileLee/FilterRules/Rules/Scripts/BiliBili_Splash.js
+
+Surge & QX Mitm = %APPEND% app.bilibili.com
+*/
+
 // 感谢 blackmatrix7 提供的思路，但原js过于庞大，所以将此单独拿出来解析
 // 原版地址 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js
 

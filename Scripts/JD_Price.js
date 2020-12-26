@@ -1,6 +1,19 @@
-﻿/*
-README：https://github.com/SavileLee
- */
+﻿/* Display JD Historical Price
+
+Surge4.0:
+# 不生效或失效的检查一下配置有没有这两条复写，删除试试
+# ^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start - reject
+# ^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=(start|queryMaterialAdverts) - reject
+[Script]
+http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) requires-body=1,script-path=https://raw.githubusercontent.com/SavileLee/FilterRules/Rules/Scripts/JD_Price.js
+
+QX 1.0.0:
+[rewrite_local]
+^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/SavileLee/FilterRules/Rules/Scripts/JD_Price.js
+
+Surge & QX Mitm 
+hostname = %APPEND% api.m.jd.com
+*/
 
 const path1 = "serverConfig";
 const path2 = "wareBusiness";

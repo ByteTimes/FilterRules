@@ -1,6 +1,19 @@
-﻿/*
-README：https://github.com/SavileLee
- */
+﻿/* Display Taobao Historical Price
+
+# 不生效或失效的需要卸载 tb 重装，注意不开脚本进 tb 会失效
+Surge4.0:
+[Script]
+http-request ^http://.+/amdc/mobileDispatch requires-body=1,script-path=https://raw.githubusercontent.com/SavileLee/FilterRules/Rules/Scripts/TB_Price.js
+http-response ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail requires-body=1,script-path=https://raw.githubusercontent.com/SavileLee/FilterRules/Rules/Scripts/TB_Price.js
+
+QX 1.0.0:
+[rewrite_local]
+^http://.+/amdc/mobileDispatch url script-request-body https://raw.githubusercontent.com/SavileLee/FilterRules/Rules/Scripts/TB_Price.js
+^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://raw.githubusercontent.com/SavileLee/FilterRules/Rules/Scripts/TB_Price.js
+
+Surge & QX Mitm 
+hostname = %APPEND% trade-acs.m.taobao.com
+*/
 
 const $tool = new Tool()
 const path1 = "/amdc/mobileDispatch"
