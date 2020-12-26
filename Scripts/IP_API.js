@@ -1,4 +1,4 @@
-﻿if ($response.statusCode != 200) {
+if ($response.statusCode != 200) {
   $done(null);
 }
 
@@ -35,7 +35,7 @@ function ISP_ValidCheck(para) {
 }
 
 function Area_check(para) {
-  if(para=="中国"){
+  if(para=="中华民国"){
   return "台湾"
   } else
   {
@@ -50,7 +50,7 @@ var obj = JSON.parse(body)["data"];
 var emoji = flags.get(obj['country'])? flags.get(obj['country']):"🏴‍☠️"
 emoji=City_ValidCheck(obj['province']) == "香港"? "🇭🇰️":emoji
 emoji=City_ValidCheck(obj['province']) == "澳门"? "️🇲🇴️":emoji
-emoji=City_ValidCheck(obj['province']) == "台湾"? "️️🇹🇼":emoji
+// emoji=City_ValidCheck(obj['province']) == "台湾"? "️️🇹🇼":emoji
 var title =  emoji +'『'+ City_ValidCheck(obj['province'])+'』';//+Area_check(obj['country']);
 var subtitle =  "💋 "+ ISP_ValidCheck(obj['isp']) + " ➠ "+ obj['country'];
 var ip = obj['addr']; 
