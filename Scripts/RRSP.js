@@ -4,7 +4,6 @@ Surge4.0:
 [Rule]
 AND,((USER-AGENT,PUClient*), (NOT,((DOMAIN-SUFFIX,rr.tv)))),REJECT
 URL-REGEX,^https?:\/\/api\.rr\.tv\/(?:ad\/getAll$|storage/business/rootName/app/homePage),REJECT
-
 [Script]
 rrsp_video = type=http-response,requires-body=true,pattern=^https?:\/\/api\.rr\.tv\/watch\/v\d\/get_movie_info,script-path=https://raw.githubusercontent.com/SavileLee/FilterRules/Rules/Scripts/RRSP.js
 rrsp_banner = type=http-response,requires-body=true,pattern=^https?:\/\/api\.rr\.tv\/v\dplus\/index\/channel$,script-path=https://raw.githubusercontent.com/SavileLee/FilterRules/Rules/Scripts/RRSP.js
