@@ -1,7 +1,7 @@
 ﻿# 自用分流列表 #
 # 海外网络部分---PROXY
 # (DNS Cache Pollution)
-# ---(Apple)---
+# ---(Apple)--- #
 DOMAIN,testflight.apple.com,PROXY
 # (Region-Restricted Access Denied)
 # > Apple URL Shortener
@@ -19,7 +19,7 @@ DOMAIN-SUFFIX,smoot.apple.com,PROXY
 DOMAIN,lookup-api.apple.com,PROXY
 # > Apple Music Web
 DOMAIN,beta.music.apple.com,PROXY
-# ---(Apple)---
+# ---(Apple)--- #
 
 # > Facebook
 DOMAIN-SUFFIX,cdninstagram.com,PROXY
