@@ -1,6 +1,6 @@
-﻿/*
-README：https://github.com/SavileLee
-每日打卡提醒（corn "0 9,18 * * 1-5" 周一到周五，早九晚六）+ 每日壹句（有道词典）+ 跳转钉钉打卡页面
+/*
+README：https://github.com/yichahucha/surge/tree/master
+每日打卡提醒（corn "0 9,18 * * 1-5" 周一到周五，早九晚六）+ 每日壹句（有道词典）+ 跳转钉钉打卡页面（下拉通知点击链接）
 */
 
 const $tool = new Tool()
@@ -10,17 +10,14 @@ $tool.get('https://dict.youdao.com/infoline/style/cardList?mode=publish&client=m
     let isAM = date.getHours() < 12 ? true : false;
     let title = 'Clock' + (isAM ? ' in' : ' out') + (isAM ? ' ☀️' : ' 🌙');
     let subtitle = '';
-    let scheme = 'dingtalk://dingtalkclient/page/link?url=https://attend.dingtalk.com/attend/index.html';
-    let content = "";
-    let option = {"open-url" : scheme};
+    let content = 'dingtalk://dingtalkclient/page/link?url=https://attend.dingtalk.com/attend/index.html';
     if (!error) {
         if (obj && obj.length > 1) {
             let yi = obj[1];
-            content = yi.title + '\n' + yi.summary;
-            option["media-url"] = yi.image[0];
+            content = yi.title + '\n' + yi.summary + '\n\n' + content;
         }
     }
-    $tool.notify(title, subtitle, content, option);
+    $tool.notify(title, subtitle, content);
     $done();
 })
 
@@ -33,16 +30,14 @@ function Tool() {
             return (null)
         }
     })()
-    _isLoon = typeof $loon !== "undefined";
-    _isSurge = typeof $httpClient != "undefined" && !_isLoon;
+    _isSurge = typeof $httpClient != "undefined"
     _isQuanX = typeof $task != "undefined"
     this.isSurge = _isSurge
     this.isQuanX = _isQuanX
     this.isResponse = typeof $response != "undefined"
-    this.notify = (title, subtitle, message, option) => {
-        if (_isQuanX) $notify(title, subtitle, message, option)
-        if (_isSurge) $notification.post(title, subtitle, message, {"url":option["open-url"]})
-        if (_isLoon) $notification.post(title, subtitle, message, option["open-url"])
+    this.notify = (title, subtitle, message) => {
+        if (_isQuanX) $notify(title, subtitle, message)
+        if (_isSurge) $notification.post(title, subtitle, message)
         if (_node) console.log(JSON.stringify({ title, subtitle, message }));
     }
     this.write = (value, key) => {
