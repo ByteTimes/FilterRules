@@ -1,4 +1,4 @@
-# Unbreak
+Ôªø# Unbreak
 # > General
 USER-AGENT,archero*,DIRECT
 USER-AGENT,coffeecorp*,DIRECT
@@ -39,19 +39,11 @@ DOMAIN,analytics.strava.com,DIRECT
 # > Umeng
 DOMAIN,msg.umeng.com,DIRECT
 DOMAIN,msg.umengcloud.com,DIRECT
-#»∆π˝∆Û“µ÷§ Èπ˝∆⁄
-host, ocsp.apple.com, reject
-#∆¡±ŒœµÕ≥∏¸–¬
-host, mesu.apple.com, reject
-host, gdmf.apple.com, reject
-host, updates-http.cdn-apple.com,REJECT
-host, xp.apple.com,REJECT
-host, world-gen.g.aaplimg.com,REJECT
-
-#—∏¿◊∞Ê»®Œ Ã‚
-host, hub5idx.v6.shub.sandai.net, reject
-host, hub5emu.v6.shub.sandai.net, reject
-host, hub5btmain.v6.shub.sandai.net, reject
-
-#»•µÙYouTube++µ◊≤øπ„∏Ê
-host-suffix, ehg-youtube.hitbox.com, reject
+# > ÁªïËøáIOS‰ºÅ‰∏öËØÅ‰π¶ËøáÊúü
+DOMAIN,ocsp.apple.com, reject
+# > Â±èËîΩIOSÁ≥ªÁªüÊõ¥Êñ∞
+DOMAIN,mesu.apple.com, reject
+DOMAIN,gdmf.apple.com, reject
+DOMAIN,updates-http.cdn-apple.com,REJECT
+DOMAIN,xp.apple.com,REJECT
+DOMAIN,world-gen.g.aaplimg.com,REJECT
