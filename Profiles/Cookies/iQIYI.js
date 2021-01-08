@@ -1,4 +1,4 @@
-/*
+﻿/*
 爱奇艺会员签到脚本
 
 更新时间: 2020.8.30
@@ -17,7 +17,7 @@ JsBox, Node.js用户抓取Cookie说明：
 开启抓包, 打开爱奇艺App后(AppStore中国区)，点击"我的" 返回抓包App 搜索url关键字: psp_cki= 提取字母数字混合字段, 到&结束, 填入以下单引号内即可.
 */
 
-var cookie = ''
+var cookie = 'deBMjFU1qSq1ljG5apyDZA2x7Ev3LM5YvMFtm37qiucLDKXYBkZOexGP38A4hQpNn6Y2d&secure_p=iPhone'
 
 /*********************
 QuantumultX 远程脚本配置:
