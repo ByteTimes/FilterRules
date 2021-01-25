@@ -1,0 +1,10 @@
+﻿# Apple Update
+
+# > 绕过IOS企业证书过期
+DOMAIN,ocsp.apple.com,Apple Update
+# > 屏蔽IOS系统更新
+DOMAIN,mesu.apple.com,Apple Update
+DOMAIN,gdmf.apple.com,Apple Update
+DOMAIN,updates-http.cdn-apple.com,Apple Update
+DOMAIN,xp.apple.com,Apple Update
+DOMAIN,world-gen.g.aaplimg.com,Apple Update
