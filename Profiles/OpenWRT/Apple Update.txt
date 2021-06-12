@@ -12,8 +12,14 @@
 #version=202106121200
 #url=https://github.com/SavileLee/FilterRules/new/Rules/Profiles/openwrt
 #apple update
+
+127.0.0.1 ocsp.int-x3.letsencrypt.org
+127.0.0.1 ocsp.apple.com
+127.0.0.1 world-gen.g.aaplimg.com
 127.0.0.1 mesu.apple.com
 127.0.0.1 gdmf.apple.com
+
 127.0.0.1 xp.apple.com
 127.0.0.1 appldnld.apple.com
+
 
