@@ -1,0 +1,11 @@
+﻿OpenWrt Hosts配置方法：
+
+1.输入 cp /etc/hosts /etc/hosts.bak 备份原有 Hosts
+2.输入 wget https://savilelee.github.io/FilterRules/Profiles/openwrt/hosts -O /etc/hosts --no-check-certificate 下载屏蔽广告 Hosts
+3.输入 /etc/init.d/dnsmasq restart 重启 Dnsmasq 使 Hosts 生效
+4.浏览器打开路由器管理页面，依次点击 [系统] → [计划任务]，在新的一行填写 0 4 * * * wget https://savilelee.github.io/FilterRules/Profiles/openwrt/hosts -O /etc/hosts --no-check-certificate && /etc/init.d/dnsmasq restart # 每天4点自动更新 Hosts
+5.如果你固件的 wget 不支持 HTTPS，那么 Hosts 会下载失败。
+解决方法：输入opkg update && opkg install wget 安装完整 wget 重新执行上面的命令。
+6.删除 Hosts 屏蔽：输入命令 mv /etc/hosts.bak /etc/hosts 还原 Hosts，接着删除计划任务的任务即可。
+
+这种方法有一定几率误杀也可能导致某些网站打不开或者显示错误。
