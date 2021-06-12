@@ -1,0 +1,19 @@
+
+[Apple update 2.0]
+!
+!------------------------------------[UPDATE]--------------------------------------
+! Title:Disabled Apple Update
+! Version: 20210612
+! Expires: 1 day
+! Homepage: https://savilelee.github.io/FilterRules/Profiles/openwrt/
+! License: https://savilelee.github.io/FilterRules/LICENSE
+! Total number of network filters: 4
+!------------------------------------[FILTERS]-------------------------------------
+#version=202106121200
+#url=https://github.com/SavileLee/FilterRules/new/Rules/Profiles/openwrt
+#apple update
+127.0.0.1 mesu.apple.com
+127.0.0.1 gdmf.apple.com
+127.0.0.1 xp.apple.com
+127.0.0.1 appldnld.apple.com
+
