@@ -3,7 +3,7 @@
 !
 !------------------------------------[UPDATE]--------------------------------------
 ! Title:Disabled Apple Update
-! Version: 20210612
+! Version: 20210720
 ! Expires: 1 day
 ! Homepage: https://savilelee.github.io/FilterRules/Profiles/openwrt/
 ! License: https://savilelee.github.io/FilterRules/LICENSE
