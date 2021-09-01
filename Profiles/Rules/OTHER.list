@@ -1,0 +1,11 @@
+#------------------------------------[OTHER]--------------------------------------
+# DIRECT
+
+# PROXY
+DOMAIN-SUFFIX,playrix.com,PROXY
+
+# REJECT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+
+
+
