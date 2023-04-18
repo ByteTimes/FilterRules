@@ -36,3 +36,6 @@ DOMAIN,analytics.strava.com
 # > Umeng
 DOMAIN,msg.umeng.com
 DOMAIN,msg.umengcloud.com
+# > TownShip
+DOMAIN-SUFFIX,playrix.com,PROXY
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
