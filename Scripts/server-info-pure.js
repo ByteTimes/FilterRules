@@ -2,7 +2,7 @@
 /***
 
 [task_local]
-event-interaction https://ddgksf2013.top/scripts/server-info-pure.js, tag=节点详情(Pure), img-url=checkmark.shield.fill.system
+event-interaction https://github.com/ByteTimes/FilterRules/raw/Rules/Scripts/server-info-pure.js, tag=节点详情(Pure), img-url=checkmark.shield.fill.system
   
 @Description: 使用 IPPure API 查询节点详细信息 (IP, ISP, 地区, 欺诈分数, 类型)
 @Update: 2025-12-14
