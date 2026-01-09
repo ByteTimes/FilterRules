@@ -1,11 +1,6 @@
 /***********************************************
 > 应用名称：菜鸟净化[原菜鸟裹裹]
-> 脚本作者：@ddgksf2013
-> 微信账号：墨鱼手记
 > 更新时间：2025-04-07
-> 通知频道：https://t.me/ddgksf2021
-> 贡献投稿：https://t.me/ddgksf2013_bot
-> 问题反馈：ddgksf2013@163.com
 > 特别提醒：如需转载请注明出处，谢谢合作！
 ***********************************************/	  
 
@@ -16,4 +11,4 @@
 const version = 'V1.0.21';
 
 
-var ddgksf2013=JSON.parse($response.body);if(-1!=$request.url.indexOf("mtop.cainiao.nbpresentation.protocol.homepage.get.cn"))ddgksf2013.data?.result?.dataList?.length>0&&(ddgksf2013.data.result.dataList=ddgksf2013.data.result.dataList.filter(a=>!("big_banner_area_v870"==a.type||"todo_list_v860"==a.type)));else if(-1!=$request.url.indexOf("mtop.cainiao.app.e2e.engine")){let a=["banner","activity","asset","vip","wallet"];for(let d of a)ddgksf2013.data?.data?.[d]&&delete ddgksf2013.data.data[d]}else if(-1!=$request.url.indexOf("mtop.cainiao.nbpresentation.homepage.merge.get.cn"))for(let i=0;i<4;i++){let t=`mtop.cainiao.nbpresentation.protocol.homepage.get.cn@${i}`;ddgksf2013.data?.[t]?.data?.result?.dataList?.length>0&&(ddgksf2013.data[t].data.result.dataList=ddgksf2013.data[t].data.result.dataList.filter(a=>!("big_banner_area_v870"==a.type||"todo_list_v860"==a.type)))}else -1!=$request.url.indexOf("mtop.cainiao.guoguo.nbnetflow.ads.mshow")?(ddgksf2013.data["1308"]&&delete ddgksf2013.data["1308"],ddgksf2013.data["1275"]&&delete ddgksf2013.data["1275"],ddgksf2013.data["205"]&&delete ddgksf2013.data["205"]):-1!=$request.url.indexOf("mtop.cainiao.guoguo.nbnetflow.ads.index.cn")?ddgksf2013.data?.result&&(ddgksf2013.data.result=[{}]):-1!=$request.url.indexOf("mtop.cainiao.adkeyword")&&ddgksf2013.data?.result?.adHotKeywords&&(ddgksf2013.data.result.adHotKeywords=[]);var body=JSON.stringify(ddgksf2013);$done({body});
+var dreamstart=JSON.parse($response.body);if(-1!=$request.url.indexOf("mtop.cainiao.nbpresentation.protocol.homepage.get.cn"))dreamstart.data?.result?.dataList?.length>0&&(dreamstart.data.result.dataList=dreamstart.data.result.dataList.filter(a=>!("big_banner_area_v870"==a.type||"todo_list_v860"==a.type)));else if(-1!=$request.url.indexOf("mtop.cainiao.app.e2e.engine")){let a=["banner","activity","asset","vip","wallet"];for(let d of a)dreamstart.data?.data?.[d]&&delete dreamstart.data.data[d]}else if(-1!=$request.url.indexOf("mtop.cainiao.nbpresentation.homepage.merge.get.cn"))for(let i=0;i<4;i++){let t=`mtop.cainiao.nbpresentation.protocol.homepage.get.cn@${i}`;dreamstart.data?.[t]?.data?.result?.dataList?.length>0&&(dreamstart.data[t].data.result.dataList=dreamstart.data[t].data.result.dataList.filter(a=>!("big_banner_area_v870"==a.type||"todo_list_v860"==a.type)))}else -1!=$request.url.indexOf("mtop.cainiao.guoguo.nbnetflow.ads.mshow")?(dreamstart.data["1308"]&&delete dreamstart.data["1308"],dreamstart.data["1275"]&&delete dreamstart.data["1275"],dreamstart.data["205"]&&delete dreamstart.data["205"]):-1!=$request.url.indexOf("mtop.cainiao.guoguo.nbnetflow.ads.index.cn")?dreamstart.data?.result&&(dreamstart.data.result=[{}]):-1!=$request.url.indexOf("mtop.cainiao.adkeyword")&&dreamstart.data?.result?.adHotKeywords&&(dreamstart.data.result.adHotKeywords=[]);var body=JSON.stringify(dreamstart);$done({body});

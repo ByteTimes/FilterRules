@@ -2,14 +2,12 @@
 
 version     v0.0.1
 updatetime  2022-08-18
-tgchannel   https://t.me/ddgksf2021
 function    京东搜索页面优化
-author      ddgksf2013
 
 [rewrite_local]
 
-^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=hotWords url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/jd_json.js
-^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=hotSearchTerms url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/jd_json.js
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=hotWords url script-response-body https://github.com/ByteTimes/FilterRules/raw/Rules/Scripts/jd_json.js
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=hotSearchTerms url script-response-body https://github.com/ByteTimes/FilterRules/raw/Rules/Scripts/jd_json.js
 
 [mitm]
 

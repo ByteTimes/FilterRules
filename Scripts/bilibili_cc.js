@@ -3,21 +3,17 @@
 > 软件版本：7.1.0
 > 下载地址：https://apps.apple.com/cn/app/id736536022
 > 脚本作者：Cuttlefish
-> 微信账号：墨鱼手记
 > 更新时间：2023-04-13
-> 通知频道：https://t.me/ddgksf2021
-> 投稿助手：https://t.me/ddgksf2013_bot
-> 问题反馈：📮 ddgksf2013@163.com 📮
 > 特别说明：本脚本仅供学习交流使用，禁止转载售卖
 ***********************************/
 
-var cuttlefish ={"warning":"本腳本僅供學習交流使用，禁止轉載售賣","tgchannel":"https://t.me/ddgksf2021","feedback":"ddgksf2013@163.com"};
+var cuttlefish ={"warning":"本腳本僅供學習交流使用，禁止轉載售賣","tgchannel":"https://t.me/","feedback":"xxx@163.com"};
 
-var ddgksf2013 = JSON.parse($response.body);
+var dreamstart = JSON.parse($response.body);
 
-for (var i=0; i<ddgksf2013.body.length;i++) ddgksf2013.body[i].content = Simplized(ddgksf2013.body[i].content);
+for (var i=0; i<dreamstart.body.length;i++) dreamstart.body[i].content = Simplized(dreamstart.body[i].content);
 
-$done({body:JSON.stringify(ddgksf2013)});
+$done({body:JSON.stringify(dreamstart)});
 
 
 

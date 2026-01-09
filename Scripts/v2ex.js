@@ -1,22 +1,13 @@
 /***********************************
 
-> 网站名称：墨鱼自用V2EX网页去广告
+> 网站名称：墨V2EX网页去广告
 > 脚本功能：网站净化|去广告
-> 脚本作者：ddgksf2013
-> 微信账号：墨鱼手记
 > 更新时间：2024-01-05
-> 通知频道：https://t.me/ddgksf2021
-> 贡献投稿：https://t.me/ddgksf2013_bot
-> 问题反馈：ddgksf2013@163.com
-> 特别提醒：如需转载请注明出处，谢谢合作！
-> 特别说明：⚠️⚠️⚠️
-          本脚本仅供学习交流使用，禁止转载、售卖
-          ⚠️⚠️⚠️
 		  
     
 [rewrite_local]
 
-^https?:\/\/.*v2ex\.com\/($|t\/\d+) url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/v2ex.js
+^https?:\/\/.*v2ex\.com\/($|t\/\d+) url script-response-body https://github.com/ByteTimes/FilterRules/raw/Rules/Scripts/v2ex.js
 
 [mitm] 
 
