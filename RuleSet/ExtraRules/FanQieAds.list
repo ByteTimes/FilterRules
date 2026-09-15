@@ -34,8 +34,8 @@ DOMAIN-SUFFIX,novelapp.ixigua.com
 DOMAIN-SUFFIX,default.ixigua.com
 #广告关键词
 DOMAIN-KEYWORD,magic.byteimg
-DOMAIN-KEYWORD,zijieapi
-DOMAIN-KEYWORD,applog
+#DOMAIN-KEYWORD,zijieapi
+#DOMAIN-KEYWORD,applog
 DOMAIN-KEYWORD,luckycat
 DOMAIN-KEYWORD,ad-sign
 DOMAIN-KEYWORD,ad-app
