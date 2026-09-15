@@ -22,7 +22,7 @@ DOMAIN,csj-sp.csjdeveloper.com
 #广告后缀域名
 DOMAIN-SUFFIX,fqnovelvod.com
 DOMAIN-SUFFIX,dragonread.com
-DOMAIN-SUFFIX,ecombdimg.com
+#DOMAIN-SUFFIX,ecombdimg.com
 DOMAIN-SUFFIX,luckycat.byteimg.com
 DOMAIN-SUFFIX,pglstatp-toutiao.com
 DOMAIN-SUFFIX,byteorge.com
