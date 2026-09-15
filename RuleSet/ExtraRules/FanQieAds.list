@@ -1,8 +1,5 @@
 ##番茄小说去广告
 
-#放行听书
-DOMAIN-KEYWORD,tts,DIRECT
-DOMAIN-SUFFIX,byteimg.com,DIRECT
 #广告精确域名
 DOMAIN,i.snssdk.com
 DOMAIN,i-lq.snssdk.com
