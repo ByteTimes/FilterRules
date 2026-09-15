@@ -1,0 +1,11 @@
+## 屏蔽IOS更新
+
+host-suffix, mesu.apple.com
+host-suffix, appldnld.apple.com
+host-suffix, gdmf.apple.com
+host-suffix, gg.apple.com
+host-suffix, gs.apple.com
+host-suffix, ig.apple.com
+host-suffix, updates.cdn-apple.com
+host-suffix, updates-http.cdn-apple.com
+host-suffix, xp.apple.com
