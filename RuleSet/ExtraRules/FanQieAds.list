@@ -5,8 +5,8 @@ DOMAIN,i.snssdk.com
 DOMAIN,i-lq.snssdk.com
 DOMAIN,is.snssdk.com
 DOMAIN,mcs.snssdk.com
-DOMAIN,p3-aio.ecombdimg.com
-DOMAIN,p26-item.ecombdimg.com
+#DOMAIN,p3-aio.ecombdimg.com
+#DOMAIN,p26-item.ecombdimg.com
 DOMAIN,p6-ad-sign.byteimg.com
 DOMAIN,p9-ad-sign.byteimg.com
 DOMAIN,dig.bdurl.net
@@ -15,7 +15,7 @@ DOMAIN,tnc3-alisc1.snssdk.com
 DOMAIN,tnc3-aliec2.snssdk.com
 DOMAIN,security-lq.snssdk.com
 DOMAIN,sf3-ttcdn-tos.pstatp.com
-DOMAIN,msync-im1-vip6-std.easemob.com
+#DOMAIN,msync-im1-vip6-std.easemob.com
 DOMAIN,ad.zijieapi.com
 DOMAIN,scc.bytedance.com
 DOMAIN,csj-sp.csjdeveloper.com
