@@ -1,20 +1,20 @@
 ##番茄小说去广告
 
 #广告精确域名
-DOMAIN,dig.bdurl.net,REJECT
-DOMAIN,activity-ag.awemeughun.com,REJECT
-DOMAIN,ad.zijieapi.com,REJECT
-DOMAIN,scc.bytedance.com,REJECT
-DOMAIN,csj-sp.csjdeveloper.com,REJECT
+DOMAIN,dig.bdurl.net,广告屏蔽
+DOMAIN,activity-ag.awemeughun.com,广告屏蔽
+DOMAIN,ad.zijieapi.com,广告屏蔽
+DOMAIN,scc.bytedance.com,广告屏蔽
+DOMAIN,csj-sp.csjdeveloper.com,广告屏蔽
 
 #广告后缀域名（穿山甲核心，纯广告、抖音完全不用）
-DOMAIN-SUFFIX,fqnovelvod.com,REJECT
-DOMAIN-SUFFIX,dragonread.com,REJECT
-DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
-DOMAIN-SUFFIX,byteorge.com,REJECT
-DOMAIN-SUFFIX,bytegoofy.com,REJECT
-DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
-DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
-DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com,REJECT
-DOMAIN-SUFFIX,novelapp.ixigua.com,REJECT
-DOMAIN-SUFFIX,default.ixigua.com,REJECT
+DOMAIN-SUFFIX,fqnovelvod.com,广告屏蔽
+DOMAIN-SUFFIX,dragonread.com,广告屏蔽
+DOMAIN-SUFFIX,pglstatp-toutiao.com,广告屏蔽
+DOMAIN-SUFFIX,byteorge.com,广告屏蔽
+DOMAIN-SUFFIX,bytegoofy.com,广告屏蔽
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,广告屏蔽
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,广告屏蔽
+DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com,广告屏蔽
+DOMAIN-SUFFIX,novelapp.ixigua.com,广告屏蔽
+DOMAIN-SUFFIX,default.ixigua.com,广告屏蔽
