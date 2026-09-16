@@ -41,10 +41,4 @@ DOMAIN-SUFFIX,battlenet.com.cn
 #放行番茄小说听书
 DOMAIN-KEYWORD,tts
 DOMAIN-SUFFIX,byteimg.com
-#抖音直播间
-host-suffix, live.douyin.com
-host-suffix, webcast.amemv.com
-host-suffix, webcast5-ws-web-lf.douyin.com
-host-suffix, webcast3-ws-web-lq.douyin.com
-host-suffix, webcast5.amemv.com
-host-suffix, webcast3.amemv.com
+
