@@ -38,7 +38,10 @@ DOMAIN,msg.umeng.com
 DOMAIN,msg.umengcloud.com
 # >Blizzard
 DOMAIN-SUFFIX,battlenet.com.cn
-#放行番茄小说听书
+#番茄小说听书
 DOMAIN-KEYWORD,tts
 DOMAIN-SUFFIX,byteimg.com
+#抖音商城
+DOMAIN, mssdk.zijieapi.com, direct 
+DOMAIN, log.amemv.com, direct
 
