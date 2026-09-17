@@ -1,4 +1,9 @@
 # Unbreak
+
+# > 银行直连
+DOMAIN-SUFFIX,cmbc.com.cn,DIRECT
+DOMAIN-SUFFIX,icbc.com.cn,DIRECT
+DOMAIN-SUFFIX,cgbchina.com.cn,DIRECT
 # > General
 DOMAIN,app.adjust.com
 DOMAIN,app.appsflyer.com
