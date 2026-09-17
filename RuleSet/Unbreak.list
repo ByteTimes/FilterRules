@@ -1,9 +1,9 @@
 # Unbreak
 
 # > 银行直连
-DOMAIN-SUFFIX,cmbc.com.cn,DIRECT
-DOMAIN-SUFFIX,icbc.com.cn,DIRECT
-DOMAIN-SUFFIX,cgbchina.com.cn,DIRECT
+DOMAIN-SUFFIX,cmbc.com.cn
+DOMAIN-SUFFIX,icbc.com.cn
+DOMAIN-SUFFIX,cgbchina.com.cn
 # > General
 DOMAIN,app.adjust.com
 DOMAIN,app.appsflyer.com
@@ -47,6 +47,6 @@ DOMAIN-SUFFIX,battlenet.com.cn
 DOMAIN-KEYWORD,tts
 DOMAIN-SUFFIX,byteimg.com
 #抖音商城
-DOMAIN, mssdk.zijieapi.com, direct 
-DOMAIN, log.amemv.com, direct
+DOMAIN, mssdk.zijieapi.com 
+DOMAIN, log.amemv.com
 
