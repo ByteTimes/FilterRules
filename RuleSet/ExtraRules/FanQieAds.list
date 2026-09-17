@@ -6,6 +6,10 @@ DOMAIN,activity-ag.awemeughun.com,广告屏蔽
 DOMAIN,ad.zijieapi.com,广告屏蔽
 DOMAIN,scc.bytedance.com,广告屏蔽
 DOMAIN,csj-sp.csjdeveloper.com,广告屏蔽
+DOMAIN,reading-hl.snssdk.com,广告屏蔽
+DOMAIN,i-hl.snssdk.com,广告屏蔽
+
+#阅读页底部广告条frontier
 DOMAIN,frontier100-toutiao-lf.fqnovel.com,广告屏蔽
 DOMAIN,frontier100-toutiao-hl.fqnovel.com,广告屏蔽
 
@@ -20,6 +24,5 @@ DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,广告屏蔽
 DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com,广告屏蔽
 DOMAIN-SUFFIX,novelapp.ixigua.com,广告屏蔽
 DOMAIN-SUFFIX,default.ixigua.com,广告屏蔽
-DOMAIN,reading-hl.snssdk.com,广告屏蔽
-DOMAIN,i-hl.snssdk.com,广告屏蔽
+
 
