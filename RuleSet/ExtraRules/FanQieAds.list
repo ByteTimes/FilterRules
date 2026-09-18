@@ -19,7 +19,7 @@ DOMAIN,p9-ad-sign.byteimg.com,广告屏蔽
 DOMAIN,frontier100-toutiao-lf.fqnovel.com,广告屏蔽
 DOMAIN,frontier100-toutiao-hl.fqnovel.com,广告屏蔽
 DOMAIN,mon11-misc-lf.fqnovel.com,广告屏蔽
-#DOMAIN,p3-aio.ecombdimg.com,广告屏蔽
+DOMAIN,p3-aio.ecombdimg.com,广告屏蔽
 
 #广告后缀域名（穿山甲核心，纯广告、抖音完全不用）
 DOMAIN-SUFFIX,fqnovelvod.com,广告屏蔽
