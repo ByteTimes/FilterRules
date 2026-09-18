@@ -42,7 +42,3 @@ DOMAIN-SUFFIX,battlenet.com.cn
 #番茄小说听书
 DOMAIN-KEYWORD,tts
 DOMAIN-SUFFIX,byteimg.com
-#抖音商城
-DOMAIN, mssdk.zijieapi.com 
-DOMAIN, log.amemv.com
-
