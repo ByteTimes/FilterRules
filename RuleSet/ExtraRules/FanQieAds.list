@@ -1,12 +1,17 @@
 ##番茄小说去广告
 
 #广告精确域名
+DOMAIN,i.snssdk.com,REJECT
+DOMAIN,is.snssdk.com,REJECT
+DOMAIN,mcs.snssdk.com,REJECT
+DOMAIN-SUFFIX,dragonread.com,REJECT
 DOMAIN,activity-ag.awemeughun.com,广告屏蔽
 DOMAIN,ad.zijieapi.com,广告屏蔽
 DOMAIN,scc.bytedance.com,广告屏蔽
 DOMAIN,csj-sp.csjdeveloper.com,广告屏蔽
 DOMAIN,reading-hl.snssdk.com,广告屏蔽
 DOMAIN,i-hl.snssdk.com,广告屏蔽
+DOMAIN,p3-ad-sign.byteimg.com.com,广告屏蔽
 DOMAIN,p6-ad-sign.byteimg.com,广告屏蔽
 DOMAIN,p9-ad-sign.byteimg.com,广告屏蔽
 
@@ -14,8 +19,7 @@ DOMAIN,p9-ad-sign.byteimg.com,广告屏蔽
 DOMAIN,frontier100-toutiao-lf.fqnovel.com,广告屏蔽
 DOMAIN,frontier100-toutiao-hl.fqnovel.com,广告屏蔽
 DOMAIN,mon11-misc-lf.fqnovel.com,广告屏蔽
-DOMAIN,p3-aio.ecombdimg.com,广告屏蔽
-DOMAIN,p26-item.ecombdimg.com,广告屏蔽
+#DOMAIN,p3-aio.ecombdimg.com,广告屏蔽
 
 #广告后缀域名（穿山甲核心，纯广告、抖音完全不用）
 DOMAIN-SUFFIX,fqnovelvod.com,广告屏蔽
