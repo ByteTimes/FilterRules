@@ -1,74 +1,109 @@
-# NAME: OpenAI
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:20:00
-# HOST: 7
-# HOST-KEYWORD: 1
-# HOST-SUFFIX: 24
-# IP-ASN: 1
-# IP-CIDR: 2
-# TOTAL: 35
-HOST,browser-intake-datadoghq.com,OpenAI
-HOST,chat.openai.com.cdn.cloudflare.net,OpenAI
-HOST,openai-api.arkoselabs.com,OpenAI
-HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,OpenAI
-HOST,openaicomproductionae4b.blob.core.windows.net,OpenAI
-HOST,production-openaicom-storage.azureedge.net,OpenAI
-HOST,static.cloudflareinsights.com,OpenAI
-HOST-SUFFIX,ai.com,OpenAI
-HOST-SUFFIX,algolia.net,OpenAI
-HOST-SUFFIX,api.statsig.com,OpenAI
-HOST-SUFFIX,auth0.com,OpenAI
-HOST-SUFFIX,chatgpt.com,OpenAI
-HOST-SUFFIX,chatgpt.livekit.cloud,OpenAI
-HOST-SUFFIX,client-api.arkoselabs.com,OpenAI
-HOST-SUFFIX,events.statsigapi.net,OpenAI
-HOST-SUFFIX,featuregates.org,OpenAI
-HOST-SUFFIX,host.livekit.cloud,OpenAI
-HOST-SUFFIX,identrust.com,OpenAI
-HOST-SUFFIX,intercom.io,OpenAI
-HOST-SUFFIX,intercomcdn.com,OpenAI
-HOST-SUFFIX,launchdarkly.com,OpenAI
-HOST-SUFFIX,oaistatic.com,OpenAI
-HOST-SUFFIX,oaiusercontent.com,OpenAI
-HOST-SUFFIX,observeit.net,OpenAI
-HOST-SUFFIX,openai.com,OpenAI
-HOST-SUFFIX,openaiapi-site.azureedge.net,OpenAI
-HOST-SUFFIX,openaicom.imgix.net,OpenAI
-HOST-SUFFIX,segment.io,OpenAI
-HOST-SUFFIX,sentry.io,OpenAI
-HOST-SUFFIX,stripe.com,OpenAI
-HOST-SUFFIX,turn.livekit.cloud,OpenAI
-HOST-KEYWORD,openai,OpenAI
-IP-CIDR,24.199.123.28/32,OpenAI
-IP-CIDR,64.23.132.171/32,OpenAI
-IP-ASN,20473,OpenAI
+# > 国际常用AI列表
+
+# NAME: OpenAI/ChatGPT
+HOST,browser-intake-datadoghq.com
+HOST,chat.openai.com.cdn.cloudflare.net
+HOST,openai-api.arkoselabs.com
+HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+HOST,openaicomproductionae4b.blob.core.windows.net
+HOST,production-openaicom-storage.azureedge.net
+HOST,static.cloudflareinsights.com
+HOST-SUFFIX,ai.com
+HOST-SUFFIX,algolia.net
+HOST-SUFFIX,api.statsig.com
+HOST-SUFFIX,auth0.com
+HOST-SUFFIX,chatgpt.com
+HOST-SUFFIX,chatgpt.livekit.cloud
+HOST-SUFFIX,client-api.arkoselabs.com
+HOST-SUFFIX,events.statsigapi.net
+HOST-SUFFIX,featuregates.org
+HOST-SUFFIX,host.livekit.cloud
+HOST-SUFFIX,identrust.com
+HOST-SUFFIX,intercom.io
+HOST-SUFFIX,intercomcdn.com
+HOST-SUFFIX,launchdarkly.com
+HOST-SUFFIX,oaistatic.com
+HOST-SUFFIX,oaiusercontent.com
+HOST-SUFFIX,observeit.net
+HOST-SUFFIX,openai.com
+HOST-SUFFIX,openaiapi-site.azureedge.net
+HOST-SUFFIX,openaicom.imgix.net
+HOST-SUFFIX,segment.io
+HOST-SUFFIX,sentry.io
+HOST-SUFFIX,stripe.com
+HOST-SUFFIX,turn.livekit.cloud
+HOST-KEYWORD,openai
+IP-CIDR,24.199.123.28/32
+IP-CIDR,64.23.132.171/32
+IP-ASN,20473
 
 # NAME: BardAI
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:20:02
-# HOST: 4
-# HOST-SUFFIX: 6
-# TOTAL: 10
-HOST,ai.google.dev,BardAI
-HOST,alkalimakersuite-pa.clients6.google.com,BardAI
-HOST,generativelanguage.googleapis.com,BardAI
-HOST,makersuite.google.com,BardAI
-HOST-SUFFIX,bard.google.com,BardAI
-HOST-SUFFIX,deepmind.com,BardAI
-HOST-SUFFIX,deepmind.google,BardAI
-HOST-SUFFIX,gemini.google.com,BardAI
-HOST-SUFFIX,generativeai.google,BardAI
-HOST-SUFFIX,proactivebackend-pa.googleapis.com,BardAI
+HOST,ai.google.dev
+HOST,alkalimakersuite-pa.clients6.google.com
+HOST,generativelanguage.googleapis.com
+HOST,makersuite.google.com
+HOST-SUFFIX,bard.google.com
+HOST-SUFFIX,deepmind.com
+HOST-SUFFIX,deepmind.google
+HOST-SUFFIX,gemini.google.com
+HOST-SUFFIX,generativeai.google
+HOST-SUFFIX,proactivebackend-pa.googleapis.com
 
 # NAME: Claude
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:20:01
-# HOST: 1
-# HOST-SUFFIX: 2
-# TOTAL: 3
-HOST,cdn.usefathom.com,Claude
-HOST-SUFFIX,anthropic.com,Claude
-HOST-SUFFIX,claude.ai,Claude
+HOST,cdn.usefathom.com
+HOST-SUFFIX,anthropic.com
+HOST-SUFFIX,claude.ai
+  
+# NAME: Anthropic/Claude
+  - DOMAIN,cdn.usefathom.com
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,claudeusercontent.com
+
+# NAME: Google AI (Gemini/Bard)
+  - DOMAIN,ai.google.dev
+  - DOMAIN,makersuite.google.com
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,apis.google.com
+  - DOMAIN-SUFFIX,clients6.google.com
+  - DOMAIN-SUFFIX,clients4.google.com
+  - DOMAIN-SUFFIX,deepmind.com
+  - DOMAIN-SUFFIX,deepmind.google
+  - DOMAIN-SUFFIX,generativeai.google
+  - DOMAIN-SUFFIX,colab.google.com
+  - DOMAIN-SUFFIX,colab.research.google.com
+  - DOMAIN-SUFFIX,developerprofiles.google.com
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+
+# NAME: JetBrains AI
+  - DOMAIN-SUFFIX,grazie.ai
+  
+# NAME: Meta
+  - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,meta.com
+
+# NAME: Microsoft Copilot
+  - DOMAIN,api.msn.com
+  - DOMAIN,assets.msn.com
+  - DOMAIN,copilot.microsoft.com
+  - DOMAIN,gateway.bingviz.microsoft.net
+  - DOMAIN,gateway.bingviz.microsoftapp.net
+  - DOMAIN,in.appcenter.ms
+  - DOMAIN,location.microsoft.com
+  - DOMAIN,odc.officeapps.live.com
+  - DOMAIN,r.bing.com
+  - DOMAIN,self.events.data.microsoft.com
+  - DOMAIN,services.bingapis.com
+  - DOMAIN,sydney.bing.com
+  - DOMAIN,www.bing.com
+  - DOMAIN-SUFFIX,api.microsoftapp.net
+  - DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io
+  - DOMAIN-SUFFIX,edgeservices.bing.com
+
+# NAME: Midjourney
+  - DOMAIN-SUFFIX,midjourney.com
+
+
+
