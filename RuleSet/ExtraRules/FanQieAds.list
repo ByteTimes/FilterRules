@@ -2,7 +2,7 @@
 
 #广告精确域名
 DOMAIN,i.snssdk.com,REJECT
-DOMAIN,is.snssdk.com,REJECT
+#DOMAIN,is.snssdk.com,REJECT
 DOMAIN,mcs.snssdk.com,REJECT
 DOMAIN-SUFFIX,dragonread.com,REJECT
 DOMAIN,activity-ag.awemeughun.com,广告屏蔽
@@ -11,7 +11,7 @@ DOMAIN,scc.bytedance.com,广告屏蔽
 DOMAIN,csj-sp.csjdeveloper.com,广告屏蔽
 DOMAIN,reading-hl.snssdk.com,广告屏蔽
 DOMAIN,i-hl.snssdk.com,广告屏蔽
-#DOMAIN,p3-ad-sign.byteimg.com.com,广告屏蔽
+DOMAIN,p3-ad-sign.byteimg.com.com,广告屏蔽
 DOMAIN,p6-ad-sign.byteimg.com,广告屏蔽
 DOMAIN,p9-ad-sign.byteimg.com,广告屏蔽
 
