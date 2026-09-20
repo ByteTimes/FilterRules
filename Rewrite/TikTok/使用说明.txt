@@ -1,5 +1,10 @@
+[filter_remote]
+// 在配置信息[filter_remote]添加TikTok分流连接，示例代码：
+https://github.com/ByteTimes/FilterRules/raw/Rules/RuleSet/ExtraRules/TikTok.list, tag=TikTok, force-policy=PROXY, update-interval=172800, opt-parser=true, enabled=true
+
+
 [rewrite_remote]
-// 在配置信息[rewrite_remote]中添加以下代码：
+// 在配置信息[rewrite_remote]中添加以下示例代码：
 https://github.com/ByteTimes/FilterRules/raw/Rules/Rewrite/TikTok/TikTok-TW.conf, tag=解锁TikTok台湾区, update-interval=86400, opt-parser=false, enabled=true
 https://github.com/ByteTimes/FilterRules/raw/Rules/Rewrite/TikTok/TikTok-JP.conf, tag=解锁TikTok日本区, update-interval=86400, opt-parser=false, enabled=false
 https://github.com/ByteTimes/FilterRules/raw/Rules/Rewrite/TikTok/TikTok-KR.conf, tag=解锁TikTok韩国区, update-interval=86400, opt-parser=false, enabled=false
