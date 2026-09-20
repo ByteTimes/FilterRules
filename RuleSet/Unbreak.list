@@ -41,3 +41,6 @@ DOMAIN,msg.umengcloud.com
 DOMAIN-SUFFIX,battlenet.com.cn
 #番茄小说听书
 DOMAIN-KEYWORD,tts
+#抖音商城
+HOST-SUFFIX,log.amemv.com,DIRECT
+HOST-SUFFIX,mssdk.zijieapi.com,DIRECT
