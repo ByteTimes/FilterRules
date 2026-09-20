@@ -21,16 +21,15 @@ DOMAIN,ad.zijieapi.com,REJECT
 DOMAIN,csj-sp.csjdeveloper.com,REJECT
 DOMAIN,p6-ad-sign.byteimg.com,REJECT
 DOMAIN,p9-ad-sign.byteimg.com,REJECT
-;DOMAIN,dig.bdurl.net,REJECT
+DOMAIN,dig.bdurl.net,REJECT
 DOMAIN,activity-ag.awemeughun.com,REJECT
 
 # =========================================================
 # 番茄小说底部广告
 # =========================================================
-DOMAIN,frontier100-toutiao-lf.fqnovel.com,广告屏蔽
-DOMAIN,frontier100-toutiao-hl.fqnovel.com,广告屏蔽
-DOMAIN,mon11-misc-lf.fqnovel.com,广告屏蔽
-DOMAIN,p3-aio.ecombdimg.com,广告屏蔽
+;DOMAIN,frontier100-toutiao-lf.fqnovel.com,广告屏蔽
+;DOMAIN,frontier100-toutiao-hl.fqnovel.com,广告屏蔽
+
 
 
 
