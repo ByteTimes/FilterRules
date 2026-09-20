@@ -44,3 +44,4 @@ DOMAIN-KEYWORD,tts
 #抖音商城
 HOST-SUFFIX,log.amemv.com,DIRECT
 HOST-SUFFIX,mssdk.zijieapi.com,DIRECT
+HOST,p3-ad-sign.byteimg.com,DIRECT
