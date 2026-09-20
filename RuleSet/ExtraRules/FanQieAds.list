@@ -21,7 +21,7 @@ DOMAIN,ad.zijieapi.com,REJECT
 DOMAIN,csj-sp.csjdeveloper.com,REJECT
 DOMAIN,p6-ad-sign.byteimg.com,REJECT
 DOMAIN,p9-ad-sign.byteimg.com,REJECT
-DOMAIN,dig.bdurl.net,REJECT
+;DOMAIN,dig.bdurl.net,REJECT
 DOMAIN,activity-ag.awemeughun.com,REJECT
 
 
