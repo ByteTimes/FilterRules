@@ -1,36 +1,27 @@
 ##番茄小说去广告
 
-#广告精确域名
-DOMAIN,i.snssdk.com,REJECT
-#DOMAIN,is.snssdk.com,REJECT
-DOMAIN,mcs.snssdk.com,REJECT
+# =========================================================
+# 番茄小说相关广告域名
+# =========================================================
+DOMAIN-SUFFIX,fqnovelvod.com,REJECT
 DOMAIN-SUFFIX,dragonread.com,REJECT
-DOMAIN,activity-ag.awemeughun.com,广告屏蔽
-DOMAIN,ad.zijieapi.com,广告屏蔽
-DOMAIN,scc.bytedance.com,广告屏蔽
-DOMAIN,csj-sp.csjdeveloper.com,广告屏蔽
-DOMAIN,reading-hl.snssdk.com,广告屏蔽
-DOMAIN,i-hl.snssdk.com,广告屏蔽
-#DOMAIN,p3-ad-sign.byteimg.com.com,广告屏蔽
-DOMAIN,p6-ad-sign.byteimg.com,广告屏蔽
-DOMAIN,p9-ad-sign.byteimg.com,广告屏蔽
+DOMAIN-SUFFIX,luckycat.byteimg.com,REJECT
 
-#阅读页底部广告条frontier
-DOMAIN,frontier100-toutiao-lf.fqnovel.com,广告屏蔽
-DOMAIN,frontier100-toutiao-hl.fqnovel.com,广告屏蔽
-DOMAIN,mon11-misc-lf.fqnovel.com,广告屏蔽
-#DOMAIN,p3-aio.ecombdimg.com,广告屏蔽
+# =========================================================
+# 穿山甲广告 SDK
+# =========================================================
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com,REJECT
 
-#广告后缀域名（穿山甲核心，纯广告、抖音完全不用）
-DOMAIN-SUFFIX,fqnovelvod.com,广告屏蔽
-DOMAIN-SUFFIX,dragonread.com,广告屏蔽
-DOMAIN-SUFFIX,pglstatp-toutiao.com,广告屏蔽
-DOMAIN-SUFFIX,byteorge.com,广告屏蔽
-DOMAIN-SUFFIX,bytegoofy.com,广告屏蔽
-DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,广告屏蔽
-DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,广告屏蔽
-DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com,广告屏蔽
-DOMAIN-SUFFIX,novelapp.ixigua.com,广告屏蔽
-DOMAIN-SUFFIX,default.ixigua.com,广告屏蔽
+# =========================================================
+# 明确的广告域名
+# =========================================================
+DOMAIN,ad.zijieapi.com,REJECT
+DOMAIN,csj-sp.csjdeveloper.com,REJECT
+DOMAIN,p6-ad-sign.byteimg.com,REJECT
+DOMAIN,p9-ad-sign.byteimg.com,REJECT
+DOMAIN,dig.bdurl.net,REJECT
+DOMAIN,activity-ag.awemeughun.com,REJECT
 
 
