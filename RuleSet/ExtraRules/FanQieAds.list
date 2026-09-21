@@ -34,4 +34,4 @@ DOMAIN,activity-ag.awemeughun.com,REJECT
 DOMAIN,frontier100-toutiao-lf.fqnovel.com,广告屏蔽
 DOMAIN,frontier100-toutiao-hl.fqnovel.com,广告屏蔽
 ;DOMAIN,p3-aio.ecombdimg.com,REJECT
-DOMAIN,p26-item.ecombdimg.com,REJECT
+;DOMAIN,p26-item.ecombdimg.com,REJECT
