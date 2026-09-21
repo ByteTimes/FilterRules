@@ -1,9 +1,13 @@
 ##番茄小说去广告
 
 # =========================================================
-# 番茄小说相关广告域名
+# 番茄小说短剧视频域名
 # =========================================================
 ;DOMAIN-SUFFIX,fqnovelvod.com,REJECT
+
+# =========================================================
+# 番茄小说相关广告域名
+# =========================================================
 DOMAIN-SUFFIX,dragonread.com,REJECT
 DOMAIN-SUFFIX,luckycat.byteimg.com,REJECT
 
@@ -29,9 +33,3 @@ DOMAIN,activity-ag.awemeughun.com,REJECT
 # =========================================================
 DOMAIN,frontier100-toutiao-lf.fqnovel.com,广告屏蔽
 DOMAIN,frontier100-toutiao-hl.fqnovel.com,广告屏蔽
-DOMAIN,mon11-misc-lf.fqnovel.com,广告屏蔽
-DOMAIN,p3-aio.ecombdimg.com,广告屏蔽
-
-
-
-
